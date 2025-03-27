@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+.card {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #4c4f69; /* Text */
+    background-color: #eff1f5; /* Base */
+    padding: 20px;
+    line-height: 1.6;
+    line-spacing: 0.3px;
+}
+
+.front, .back {
+    padding: 20px;
+    border: 1px solid rgba(76, 79, 105, 0.1); /* Subtext */
+    background: #e6e9ef; /* Surface0 */
+    border-radius: 12px;
+    box-shadow: 2px 4px 12px rgba(76, 79, 105, 0.06); /* Subtext */
+    text-align: center;
+    max-width: 75%;
+    margin: 20px auto;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.front:hover, .back:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 6px 15px rgba(76, 79, 105, 0.2); /* Subtext */
+}
+
+.word {
+    font-size: 32px;
+    font-weight: bold;
+    color: #dc8a78; /* Rosewater */
+    letter-spacing: 0.5px;
+}
+
+strong {
+    color: #d20f39; /* Red */
+    font-weight: bold;
+}
+
