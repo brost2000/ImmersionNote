@@ -1,0 +1,48 @@
+<- Front Html ->
+
+<div class='front'>
+
+	<div class='word'>
+	
+		{{word}}
+	
+	</div>
+
+	<br>
+
+	<div class='sentence'>
+
+		{{sentence}}
+
+	</div>
+
+</div>
+		
+<- Back Html ->
+
+{{FrontSide}}
+
+<hr id=answer>
+
+<div class='back'>
+
+	<div class='definition'>
+
+		{{word_furigana}}
+
+			<br>
+
+		{{definition}}
+
+	</div>
+
+	<br>
+
+	<div class='audio'>
+
+		{{word audio}}
+		{{sentence audio}}
+
+	</div>
+
+</div>
